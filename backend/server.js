@@ -34,7 +34,7 @@ app.post('/register', (req, res) => {
     })
 });
 
-mongoose.connect('mongodb://jesus:morales@ds117868.mlab.com:17868/pssocial', (err) => {
+mongoose.connect('mongodb://user:pass@ds117868.mlab.com:17868/pssocial', (err) => {
     if (!err) {
         console.log("connected to mongo");
     }
